@@ -1,3 +1,4 @@
+[![Go](https://github.com/formeo/catalog/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/formeo/catalog/actions/workflows/go.yml)
 # go-catalog
 Дипломная работа к профессии golang-разработчик (каталог)
 
