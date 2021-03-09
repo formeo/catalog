@@ -14,12 +14,10 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Print(conf)
 	log, err := logger.NewLogger(&conf.Logger)
 	if err != nil {
 		panic(err)
 	}
-	fmt.Print(log)
 	dbConnections, err := postgres.NewDBConnections(&conf.Postgres)
 	if err != nil {
 		panic(err)
